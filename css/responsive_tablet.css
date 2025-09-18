@@ -1,0 +1,435 @@
+/* header page css */
+
+/* 1024px ~1359px까지의 css */
+@media screen and (max-width:1359px) {
+
+    .site-navi-bar_wrap{
+        padding: 0 76px;
+    }
+
+    .util-nav .private-nav{
+        display: none;
+    }
+
+    .util-nav .util-mypage{
+        display: flex;
+        width: 17px;
+    }
+
+    .site-navi-bar_wrap .util-nav{
+        column-gap: 24px;
+    }
+
+}
+
+@media screen and (max-width:1023px) {
+
+    header, .site-navi-bar_main .logo, .site-navi-bar_main .main-nav, .site-navi-bar_wrap .util-nav{
+        height: 60px;
+    }
+
+    .site-navi-bar_wrap{
+        padding: 0 20px;
+    }
+
+    .site-navi-bar_main .logo{
+        width: 84px;
+    }
+
+    .site-navi-bar_main .main-nav, .util-nav .util-search{
+        display: none;
+    }
+
+}
+
+/* section01 page css */
+@media screen and (max-width:1359px) {
+
+    .main-hero .main-hero-slide{
+        top: 50px;
+        margin-left: 225px;
+    }
+
+    .main-hero .text-nodes h3{
+        font-size: 18px;
+    }
+
+    .main-hero .text-nodes h2{
+        font-size: 40px;
+    }
+
+    .hero-slide-index{
+        margin-bottom: 80px;
+    }
+
+    .hero-slide-index button{
+        margin: 0 6px;
+    }
+
+    .main-hero .cta-nodes{
+        top: 400px;
+    }
+
+    .main-hero .cta-nodes .cta-nodes_wrap span{
+        font-size: 12px;
+    }
+
+
+}
+
+@media screen and (max-width:1023px) {
+
+    .section01{
+        top: 60px;
+    }
+
+    .main-hero .main-hero-slide{
+        margin-left: 60px;
+        top: 10px;
+    }
+
+    .main-hero .cta-nodes{
+        top: 250px;
+    }
+
+    .hero-slide-index{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width:840px) {
+
+    .main-hero .cta-nodes{
+        top: 120px;
+    }
+    
+    .chatbot-box{
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .chatbot-box img{
+        width: 40px;
+    }
+
+}
+
+/* Section02 tablet css */
+
+@media screen and (max-width:1359px) {
+    .section02{
+        padding: 250px 0 0 225px;
+    }
+
+    .section02 .section02-lineup .section02-title{
+        font-size: 26px;
+    }
+
+    .section02 .section02-lineup .section02-decs{
+        padding: 15px 0;
+        font-size: 12px;
+    }
+
+    .section02 .section02-cate{
+        max-width: 900px;
+    }
+
+    .section02 .section02-lineup .section02-title{
+        font-size: 18px;
+    }
+
+    .section02 .more-btn{
+        padding-top: 14px;
+        padding-bottom: 14px;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .section02{
+        padding: 200px 0 0 100px;
+    }
+
+    .section02 .section02-cate{
+        max-width: 680px;
+        column-gap: 20px;
+    }
+}
+
+/* section04 tablet css */
+
+@media screen and (max-width:1359px) {
+    .section04{
+        height: 1100px;
+    }
+
+    .section04 .section04-swiper{
+        _padding-top: 100px;
+    }
+
+    /* 코드를 잠시 사용하지 않고 싶을떄
+       1. 주석처리
+       2. css 설정 앞에 언더바 처리 
+    */
+
+    .section04 .section04-title{
+        padding: 0 225px;
+    }
+
+    .section04 .section04-slider-btn .section04-prev, .section04 .section04-slider-btn .section04-next{
+        padding: 0;
+    }
+
+    .section04 .section04-pagenation{
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .section04 .section04-background{
+        background-size: 170%;
+    }
+
+    .section04 .section04-title{
+        padding: 0 30px;
+    }
+
+    .section04 .section04-slider-btn{
+        display: none;
+    }
+
+    .section04-swiper .section04-slide {
+        max-width: 510px;
+    }
+}
+
+/* section05 tablet css */
+
+@media screen and (max-width:1359px) {
+    .section05{
+        margin-bottom: 0;
+        gap: 20px;
+    }
+
+    .section05 .section05-imgbox .section05-content span {
+        font-size: 20px;
+    }
+
+    .section05 .section05-imgbox .section05-content p {
+        font-size: 12px;
+        padding: 10px 0;
+        line-height: 24px;
+    }
+
+    .section05 .section05-imgbox .section05-content a{
+        font-size: 12px;
+    }
+
+    .section05 .section05-imgbox .section05-content{
+        padding: 25px 200px 0 25px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .section05 .section05-imgbox .section05-img_wrap .img1920{
+        display: none;
+    }
+
+    .section05 .section05-imgbox .section05-img_wrap .img1023{
+        display: block;
+    }
+
+    .section05{
+        margin-bottom: 200px;
+    }
+
+}
+
+/* section06 tablet css */
+
+@media screen and (max-width:1023px) {
+    .section06{
+        height: 590px;
+        margin-bottom: 200px;
+    }
+
+    .section06 .section06-content{
+        font-size: 16px;
+        margin: 30px 0 20px 0;
+    }
+
+    .section06 .more-btn{
+        width: 188px;
+        height: 48px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .section06{
+        height: 410px;
+    }
+
+    .section06 .section06-content{
+        margin: 0 58px;
+    }
+}
+
+/* section07 tablet css */
+
+@media screen and (max-width:1359px) {
+    .section07{
+        padding: 100px 0;
+    }
+
+    .section07 .section07-contentbox{
+        padding: 0 100px;
+    }
+
+    .section07-contentbox .section07-title h2{
+    font-size: 28px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .section07 .section07-contentbox{
+        padding: 0 75px;
+    }
+}
+
+/* section08 tablet css */
+@media screen and (max-width:1359px) {
+    .section08{
+        padding: 95px 0;
+    }
+
+    .section08 .section08-wrap{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+}
+
+/* footer tablet css */
+@media screen and (max-width:1359px) {
+    footer{
+        padding: 0 76px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    footer{
+        padding: 0 20px;
+    }
+
+    .footer-info .footer-info_share span, .footer-info_share i{
+        display: none;
+    }
+
+    .footer-info_share .ri-share-forward-fill{
+        display: block;
+        color: #fff;
+    }
+
+    .footer-notice{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .footer-top{
+        padding: 0;
+    }
+
+    .footer-top .footer-sitemap{
+        flex-direction: column;
+    }
+
+    .footer-top .footer-sitemap-item{
+        width: 100%;
+    }
+
+    .footer-top .footer-sitemap-item .sitemap-list{
+        display: none;
+    }
+
+    .footer-sitemap .sitemap-title i{
+        display: block;
+        font-size: 20px;
+    }
+
+    .footer-sitemap .sitemap-title{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px ;
+    }
+
+    .footer-bottom .footer-inner.tablet{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .footer-bottom .footer-inner .footer-legal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        div{
+            display: flex;
+            justify-content: center;
+            column-gap: 20px;
+
+            span{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .footer-row-middle .footer-inner{
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .footer-row-middle .footer-inner .lang-box{
+        width: 50%;
+    }
+
+    .footer-row-middle .footer-inner .footer-lang{
+        width: 100%;
+    }
+
+    .footer-row-middle .footer-inner .lang-box{
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-bottom .footer-family{
+        width: 100%;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .footer-bottom .footer-family .family-item{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .footer-bottom .footer-family .family-item i{
+        order: 1;
+    }
+
+    /* order 속성 
+        order는 flexbox 레이아웃에서만 동작합니다.
+        기본값이 0이며, 숫자가 작을수록 앞쪽에 배치됩니다.
+        order:1이라고 지정하면, 기본값 0을 가진 다른 요소들 뒤에 배치됩니다.
+    */
+
+    .footer-bottom .footer-copyright span{
+        font-size: 12px;
+    }
+
+}

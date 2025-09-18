@@ -1,0 +1,230 @@
+/* header css */
+@media screen and (max-width: 1599px) {
+
+    .site-navi-bar_wrap{
+        padding: 0 100px;
+    }
+    
+    .main-nav .main-nav_title{
+        margin-right: 40px;
+    }
+
+    .site-navi-bar_main .logo{
+        width: 100px;
+        margin-right: 50px;
+    }
+
+}
+
+/* main hero page(section01) css */
+@media screen and (max-width: 1599px) {
+
+    .main-hero .main-hero-slide{
+        margin-left: 250px;
+    }
+
+    .main-hero .text-nodes h3{
+        font-size: 20px;
+    }
+
+    .main-hero .text-nodes h2{
+        font-size: 56px;
+    }
+    .main-hero .cta-nodes span{
+        font-size: 14px;
+    }
+
+    .main-hero .cta-nodes{
+        top: 50vh;
+    }
+
+    .hero-slide-index button{
+        width: 1px;
+        height: 4px;
+        padding: 4px;
+        margin: 0 8px;
+
+    }
+}
+
+/* section02 page css */
+@media screen and (max-width: 1599px) {
+
+    .section02{
+        padding: 270px 0 0 250px;
+    }
+
+    .section02 .section02-lineup .section02-title{
+        font-size: 36px;
+    }
+
+    .section02 .section02-lineup .section02-desc{
+        font-size: 14px;
+        padding: 20px 0;
+    }
+
+    .section02 .section02-cate{
+        max-width: 1200px;
+    }
+
+    .section02 .section02-catebox_wrap{
+        margin-top: 90px;
+        margin-bottom: 40px;
+    }
+
+    .section02 .section02-catebox{
+        padding: 20px;
+    }
+
+    .section02-catebox .section02-cate-title .section02-vehicle-name{
+        font-size: 20px;
+    }
+
+    
+    .section02-catebox .section02-vehicle-img img{
+        padding: 40px 0;
+    }
+
+    .section02 .more-btn{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        height: 52px;
+    }
+    
+    }
+
+/* section04 page css */
+@media screen and (max-width:1599px) {
+
+    .section04 .section04-title{
+        padding: 0 250px;
+        padding-top: 50px;
+    }
+
+    .section04 .section04-title strong{
+        font-size: 26px;
+    }
+
+    .section04 .section04-swiper .section04-slide-content a{
+        font-size: 14px;
+    }
+
+    .section04 .section04-slider-btn .section04-prev, .section04 .section04-slider-btn .section04-next{
+        i{
+            font-size: 70px;
+            font-weight: 100;
+        }
+    }
+
+    .section04 .section04-slider-btn{
+        top: 47%;
+    }
+    
+}
+
+/* section05 page css */
+@media screen and (max-width:1599px){
+
+    .section05{
+        margin-bottom: 120px;
+    }
+
+    .section05 .section05-imgbox .section05-content span{
+        font-size: 26px;
+    }
+
+    .section05 .section05-imgbox .section05-content{
+        padding: 35px 250px 0 35px;
+    }
+
+    .section05 .section05-imgbox .section05-content p{
+        font-size: 14px;
+    }
+
+}
+
+/* section06 page css */
+@media screen and (max-width:1599px) {
+
+    .section06{
+        height: 780px;
+    }
+
+    .section06 .section06-content{
+        margin: 0 100px;
+    }
+
+    .section06 .section06-content h2{
+        font-size: 42px;
+    }
+
+    .section06 .section06-content p{
+        margin: 50px 0 40px 0;
+    }
+
+    .section06 .more-btn {
+        width: 200px;
+        height: 52px;
+    }
+
+}
+
+/* section07 page css */
+@media screen and (max-width:1599px) {
+
+    .section07 .section07-contentbox .section07-box span{
+        font-size: 16px;
+    }
+
+    .section07 .section07-contentbox .section07-box p{
+        font-size: 14px;
+    }
+
+}
+
+/* section08 page css */
+@media screen and (max-width:1599px) {
+    .section08 .section08-wrap em{
+        font-size: 26px;
+    }
+
+    .section08{
+        padding: 120px 0;
+    }
+}
+
+/* footer page css */
+@media screen and (max-width:1599px) {
+
+    footer{
+        padding: 0 100px;
+    }
+
+    .footer-info span{
+        font-size: 14px;
+    }
+
+    .footer-sitemap .footer-sitemap-item .sitemap-title strong{
+        font-size: 14px;
+    }
+
+    
+    .footer-sitemap .footer-sitemap-item .sitemap-list .sitemap-item p{
+        font-size: 12px;
+    }
+     
+    .footer-bottom .footer-inner .footer-legal span, .footer-bottom .footer-inner .family-item {
+        font-size: 12px;
+    }
+
+    .footer-bottom .footer-family{
+        width: 60%;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .footer-bottom .footer-family .family-item i {
+        font-size: 16px;
+    }
+
+}
